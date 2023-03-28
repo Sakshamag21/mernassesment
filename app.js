@@ -12,9 +12,9 @@ const port = process.env.PORT || 8003;
 app.use(cors());
 app.use(express.json());
 
-app.get("/",(req,res)=>{
-    res.json("server start")
-})
+// app.get("/",(req,res)=>{
+//     res.json("server start")
+// })
 
 app.use(router);
 

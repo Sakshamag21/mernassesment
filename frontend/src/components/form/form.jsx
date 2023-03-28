@@ -46,7 +46,7 @@ const Formd = () => {
         
         console.log(FirstName,LastName);
 
-        const res = await fetch("http://localhost:8003/register1", {
+        const res = await fetch("/register1", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
