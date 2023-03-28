@@ -1,0 +1,17 @@
+.cardContainer{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cardContainer img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    
+}
+
+.cardContainer h3{
+    padding: 20px;
+}
