@@ -34,7 +34,7 @@ export default function Landing(){
 
     const getdata = async () => {
 
-        const res = await fetch("/getdata", {
+        const res = await fetch("http://localhost:8003/getdata", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"

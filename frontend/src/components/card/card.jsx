@@ -24,7 +24,7 @@ export default function Carduser(props){
   const deleteuser = async (id) => {
     console.log("yes")
     console.log(id);
-    const res2 = await fetch(`/deleteuser/${id}`, {
+    const res2 = await fetch(`http://localhost:8003/deleteuser/${id}`, {
         method: "DELETE",
         headers: {
             "Content-Type": "application/json"
